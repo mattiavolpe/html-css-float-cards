@@ -44,8 +44,16 @@ body {
   font-weight: 500;
 }
 
+.fw-700 {
+  font-weight: 700;
+}
+
 .fw-900 {
   font-weight: 900;
+}
+
+.lp-15 {
+  padding-left: 15px;
 }
 
 .hp-15 {
@@ -72,7 +80,7 @@ body {
 /* #region Layout */
 
 .container {
-  width: 70%;
+  width: 75%;
   margin: 50px auto;
 }
 
@@ -104,7 +112,7 @@ body {
 
 .team_member {
   float: left;
-  background-color: #0f0e17;
+  background-color: var(--neutral-darkblue);
   width: calc((100% / 3) - 50px);
   box-shadow: 0 0 10px 3px var(--neutral-grey);
 }
@@ -117,6 +125,20 @@ body {
 #role,
 #mail {
   display: block;
+  font-size: 1.2rem;
+}
+
+#name {
+  font-size: 1.4rem;
+}
+
+#role {
+  padding: 15px 0;
+}
+
+#mail {
+  text-decoration: none;
+  color: var(--neutral-lightblue);
 }
 
 /* #endregion Main */
