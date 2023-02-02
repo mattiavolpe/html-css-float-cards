@@ -27,7 +27,9 @@ body {
 
 /* #region Utility */
 
-
+.halign {
+  text-align: center;
+}
 
 /* #endregion Utility */
 
@@ -39,3 +41,12 @@ body {
 }
 
 /* #endregion Layout */
+
+/* #region Header */
+
+#page-title {
+  color: var(--neutral-purple);
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+/* #endregion Header */
