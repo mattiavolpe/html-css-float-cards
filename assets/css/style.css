@@ -117,26 +117,26 @@ body {
   box-shadow: 0 0 10px 3px var(--neutral-grey);
 }
 
-#name,
-#role {
+.name,
+.role {
   color: var(--primary-white);
 }
 
-#role,
-#mail {
+.role,
+.mail {
   display: block;
   font-size: 1.2rem;
 }
 
-#name {
+.name {
   font-size: 1.4rem;
 }
 
-#role {
+.role {
   padding: 15px 0;
 }
 
-#mail {
+.mail {
   text-decoration: none;
   color: var(--neutral-lightblue);
 }
