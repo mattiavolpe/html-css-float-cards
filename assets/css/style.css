@@ -1,15 +1,25 @@
 /* #region Root */
 
 :root {
-  --neutral-purple: #e53170;
-  --primary-black: #000000;
   --primary-white: #ffffff;
+  --neutral-purple: #e53170;
   --neutral-lightblue: #249fd8;
   --neutral-darkblue: #0f0e17;
-  --neutral-grey: #cdcdcc
+  --neutral-grey: #cdcdcc;
 }
 
 /* #endregion Root */
+
+/* DEBUG */
+
+.debug .team_member {
+  border: 1px solid lime;
+  background-color: #0f0e17;
+  height: 200px;
+  width: calc(100% / 3);
+}
+
+/* /DEBUG */
 
 /* #region Common */
 
@@ -27,8 +37,30 @@ body {
 
 /* #region Utility */
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .halign {
   text-align: center;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.hp-25 {
+  padding: 0 25px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 /* #endregion Utility */
@@ -44,9 +76,20 @@ body {
 
 /* #region Header */
 
-#page-title {
+#page_title {
   color: var(--neutral-purple);
   font-size: 3.5rem;
-  font-weight: 900;
 }
 /* #endregion Header */
+
+/* #region Main */
+
+#team_overview {
+  font-size: 1.5rem;
+  margin: 60px 0;
+}
+
+.team_member {
+  float: left;
+}
+/* #endregion Main */
