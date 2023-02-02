@@ -1,5 +1,41 @@
+/* #region Root */
+
+:root {
+  --neutral-purple: #e53170;
+  --primary-black: #000000;
+  --primary-white: #ffffff;
+  --neutral-lightblue: #249fd8;
+  --neutral-darkblue: #0f0e17;
+  --neutral-grey: #cdcdcc
+}
+
+/* #endregion Root */
+
+/* #region Common */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* #endregion Common */
+
+/* #region Utility */
+
+
+
+/* #endregion Utility */
+
+/* #region Layout */
+
+.container {
+  width: 70%;
+  margin: 50px auto;
+}
+
+/* #endregion Layout */
