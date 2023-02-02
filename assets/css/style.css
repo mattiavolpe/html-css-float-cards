@@ -5,20 +5,10 @@
   --neutral-purple: #e53170;
   --neutral-lightblue: #249fd8;
   --neutral-darkblue: #0f0e17;
-  --neutral-grey: #cdcdcc;
+  --neutral-grey: #bababa;
 }
 
 /* #endregion Root */
-
-/* DEBUG */
-
-/* .debug .team_member {
-  border: 1px solid lime;
-  background-color: #0f0e17;
-  height: 200px;
-} */
-
-/* /DEBUG */
 
 /* #region Common */
 
@@ -46,6 +36,10 @@ body {
   text-align: center;
 }
 
+.valign {
+  vertical-align: middle;
+}
+
 .fw-500 {
   font-weight: 500;
 }
@@ -54,8 +48,19 @@ body {
   font-weight: 900;
 }
 
+.hp-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .hp-25 {
-  padding: 0 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.hm-25 {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .mb-50 {
@@ -88,9 +93,30 @@ body {
   margin: 60px 0;
 }
 
+.team_member > img {
+  width: 150px;
+}
+
+.info_container {
+  display: inline-block;
+
+}
+
 .team_member {
   float: left;
-  width: calc(100% / 3);
+  background-color: #0f0e17;
+  width: calc((100% / 3) - 50px);
+  box-shadow: 0 0 10px 3px var(--neutral-grey);
+}
+
+#name,
+#role {
+  color: var(--primary-white);
+}
+
+#role,
+#mail {
+  display: block;
 }
 
 /* #endregion Main */
