@@ -12,12 +12,11 @@
 
 /* DEBUG */
 
-.debug .team_member {
+/* .debug .team_member {
   border: 1px solid lime;
   background-color: #0f0e17;
   height: 200px;
-  width: calc(100% / 3);
-}
+} */
 
 /* /DEBUG */
 
@@ -91,5 +90,7 @@ body {
 
 .team_member {
   float: left;
+  width: calc(100% / 3);
 }
+
 /* #endregion Main */
